@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Ubuntu-Regular;
+    background-color: rgb(65, 67, 74);
+}
+
+.fullContainer {
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding: 25px 0px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.heading h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+.input {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.input input[type="text"]{
+    width: 350px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.displayPic {
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+}
+.displayPic img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.click {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.click button {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #3c4e79;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
